@@ -1,0 +1,101 @@
+<!doctype html>
+  <html>
+    <head>
+       <meta charset="utf-8">
+         <title>网传官网</title>
+           <link rel="stylesheet" type="text/css" href="assets/style.css" />
+           <link rel="stylesheet" type="text/css" href="assets/swiper-3.4.0.min.css" />
+    </head>
+  
+   <body>
+       <div class="content">
+           <div class="header">
+                <img src="img/logo.png">
+                <div class="quickLinks">
+                    <a href="#">教师入口</a>
+                    <a href="#">学生入口</a> 
+                    <a href="#">考生入口</a>
+           </div>
+         </div>
+         <div class="nav">
+           <ul>
+              <li><a href="#">学校简介</a></li>
+              <li><a href="#">学院情况</a></li>
+              <li><a href="#">师资介绍</a></li>
+              <li><a href="#">核心期刊</a></li>
+              <li><a href="#">专业考察</a></li>
+              <li><a href="#">科研成果</a></li>
+              <li><a href="#">党建思政</a></li>
+              <li><a href="#">作品展示</a></li>
+          
+           </ul>
+        </div>
+        <!--swipe的内容区域-->
+        <div class="swiper-container">
+         <div class="swiper-wrapper">
+             <div class="banner swiper-slide"></div>
+             <div class="swiper-slide">slide2</div>
+             <div class="swiper-slide">slide3
+               
+             </div>
+     </div>
+     <div class="swiper-button-prev"></div>
+     <div class="swiper-button-next"></div>
+    </div>
+    <div class="container">
+     <div class="row">
+         <div class="cols" id="cols1-1"></div>
+          <div class="cols" id="cols1-2">
+          <ul>
+            <li>
+            <span class="channel">[栏目]</span><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;标题标题标题标题标题</a><span class="datetime">2017/3/31</span>
+            </li>
+            <li>
+            <span class="channel">[栏目]</span><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;标题标题标题标题标题</a><span class="datetime">2017/3/31</span>
+            </li>
+            <li>
+            <span class="channel">[栏目]</span><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;标题标题标题标题标题</a><span class="datetime">2017/3/31</span>
+            </li>
+            <li>
+            <span class="channel">[栏目]</span><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;标题标题标题标题标题</a><span class="datetime">2017/3/31</span>
+            </li>
+            <li>
+            <span class="channel">[栏目]</span><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;标题标题标题标题标题</a><span class="datetime">2017/3/31</span>
+            </li>
+            <li>
+            <span class="channel">[栏目]</span><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;标题标题标题标题标题</a><span class="datetime">2017/3/31</span>
+            </li>
+            <li>
+            <span class="channel">[栏目]</span><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;标题标题标题标题标题</a><span class="datetime">2017/3/31</span>
+            </li>
+            </ul>
+            </div>
+           <div class="cols" id="cols1-3">
+           <span class="title">学院概况</span>
+           <p>
+           浙江越秀外国语学院网络传播学院成立于2011年3月28日，由国务院新闻办公室中国互联网新闻中心与浙江越秀外国语学院联合举办，是中国互联网新闻中心在全国高校内最早设立的“中国互联网新闻信息管理人才培养基地”。
+           </p>
+    </div>
+    <div class="row"></div>
+    <div class="row"></div>
+
+    <!--swipe end-->
+    </div>
+   </body>
+  
+     <script src="assets/jquery-3.1.1.min.js"></script>
+     <script src="assets/swiper.jquery.min.js"></script>
+     <script>
+      <!--var 定义一个变量，new 初始化了一个控件-->
+      var mySwiper = new Swiper ('.swiper-container', {
+          loop: true,
+    // 如果需要前进后退按钮
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+  }) 
+  //     获取浏览器的视口宽度
+   var width = $(document) .width();
+   var height = width*300/2000;
+   $('.swiper-container').css('height',height+'px');    
+  </script>
+  </html>

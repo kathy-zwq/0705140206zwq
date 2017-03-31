@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+/*头部样式*/
+body{
+	padding:0;
+	margin:0;
+	font-family:
+	}
+/*初始化，为了去除默认样式*/
+ul,li{
+	padding:0;
+	margin:0;
+	}
+.content{
+	width:100%;	
+	margin:0 auto;
+	}
+.header{
+	width:1000px;
+	height:100px;
+	background:#DFDFDF;
+	margin:0 auto;
+	}
+.header img{
+	float:left;
+	}
+.quickLinks{
+	width:30%;
+	height:50px;
+	margin-top:32px;
+	float:right;
+	text-align:center;
+	}
+.quickLinks a{
+	display:inline-block;
+	width:60px;
+	height:36px;
+	border:1px #09F solid;
+	color:#1176DB;
+	text-decoration:none;
+	font-size:12px;
+	line-height:36px;
+	font-family:"华文行楷";
+	}
+.quickLinks a:hover{
+	box-shadow: 0 0 10px #06F;.
+	}
+	/*------------导航样式-----------*/
+	.title{
+		color:#06C;
+		font-weight:bold;
+		font-size:20px;
+		
+		}
+	.nav{
+		width:100%;
+		height:60px;
+		background:#0a86d4;
+		}
+	.nav ul li{
+		text-align:center;
+		list-style:none;
+		float:left;
+		width:100px;
+		height:60px;
+		line-height:60px;
+		}
+    .nav ul li a{
+		display:block;
+		width:100px;
+		height:60px;
+		color:white;
+		text-decoration:none;
+		
+		}
+	.nav ul{
+		width:800px;
+		margin:0 auto;
+		}
+	.nav ul li:hover{
+		background:#0a507d;
+		transition:2s;
+		}
+		
+	/*------------导航样式结束-------*/
+	/*------------banner 开始-------*/
+	.banner{
+		width:100%;
+		height:300px;
+		background:url("../img/banner2.jpg") no-repeat;
+		background-size:100%;
+		}
+		
+		.swiper-container{
+			width:100%;
+			}
+			
+	    .container{
+		width:1000px;
+		height:1000px;
+		margin:0 auto;
+		border:1px #bbb solid;
+		}		
+		.row{
+			width:100%;
+			height:280px;
+			margin-top:20px;
+			}
+		.cols{
+			width:300px;
+			height:250px;
+			float:left;
+			margin-left:25px;
+			}
+			
+		#cols1-2{
+			width:350px;
+			}
+			
+		#cols1-2 ul{
+			margin-top:40px;
+		}
+		
+		#cols1-2 ul li{
+			list-style:none;
+			margin-top:10px;
+			}	
+			
+		.channel{
+				font-size:12px;
+				color：#bbb；
+				}
+				
+		.datetime{
+				font-size:12px;
+				color:#bbb;
+				float:right;
+				}	
+				
+		#cols1-2 ul li a{	
+			    color:#5d5d5d;
+				text-decoration:none;
+			}
+			
+		#cols1-2 ul li a:hover{
+				color:#0a507d;
+			}
+			
+		#cols1-3{	
+		    width:250px;
+		}
+		#cols1-3 p{
+			padding:0 5px;
+			}
+		
